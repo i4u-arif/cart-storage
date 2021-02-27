@@ -14,8 +14,7 @@
 	<div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
 		<h1 class="my-0 mr-md-auto font-weight-normal">cart-localstorage</h1>
 
-		<button class="btn btn-outline-warning mr-2" onClick="cartLS.destroy()">Destroy</button>
-		<a class="btn btn-outline-primary" href="https://github.com/i4u-arif/cart-storage">Github Repository</a>
+		<button class="btn btn-outline-warning mr-2" onClick="cartLS.destroy()">Destroy</button>		
 	</div>
 	<div class="container">
 		<h2>Products</h2>
@@ -56,6 +55,23 @@
 			</div>
 		</div>
 
+		<div class="card mb-4 shadow-sm">
+			<div class="card-header">
+				<h2>Cart</h2>
+			</div>
+			<div class="card-body">
+				<table class="table">
+					<tbody class="cart">
+					</tbody>
+					<ul>
+						
+						<td class="text-right">Total: <strong class="total"></strong></td>
+						
+					</ul>
+				</table>
+			</div>
+		</div>
+		
 		<div class="card mb-4 shadow-sm">
 			<div class="card-header">
 				<h2>Cart</h2>
